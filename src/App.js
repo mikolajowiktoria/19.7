@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import CommentsListContainer from './CommentsListContainer.js';
+
 
 const App = () => {
 	return (
 		<div className="App">
-			Tutaj znajdzie się lista komentarzy!
+			<CommentsListContainer />
 		</div>
 	);
 };
